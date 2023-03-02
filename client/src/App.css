@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.alert_error {
+  position: absolute;
+  bottom: 20px;
+  right: 5%;
+}
+
+.nav_link {
+  padding: 5px 0;
+  padding-left: 20px;
+  font-weight: normal;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(166, 166, 166);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(194, 194, 194);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #616161;
+}
+
+.markdown {
+  border: 1px solid #616161;
+  width: 50%;
+  padding: 1%;
+  overflow: auto;
+}
